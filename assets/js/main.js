@@ -6,6 +6,8 @@ const browserLanguage = navigator.language
 
 let greeting
 
+let userName = 'Peter'
+
 switch (hours) {
     case 0:
     case 1:
@@ -15,11 +17,11 @@ switch (hours) {
     case 5:
     case 6:
         if (browserLanguage.includes('de')) {
-            greeting = "<div class='night'>Gute Nacht!</div>"
+            greeting = `<div class='night'>Gute Nacht, ${userName}!</div>`
         } else if (browserLanguage.includes('en')) {
-            greeting = "<div class='night'>Good night!</div>"
+            greeting = `<div class='night'>Good night, ${userName}!</div>`
         } else if (browserLanguage.includes('es')) {
-            greeting = "<div class='night'>¡Buenas noches!</div>"
+            greeting = `<div class='night'>¡Buenas noches, ${userName}!</div>`
         };
         break;
 
@@ -29,11 +31,11 @@ switch (hours) {
     case 10:
     case 11:
         if (browserLanguage.includes('de')) {
-            greeting = "<div class='morning'>Guten Morgen!</div>"
+            greeting = `<div class='morning'>Guten Morgen, ${userName}!</div>`
         } else if (browserLanguage.includes('en')) {
-            greeting = "<div class='morning'>Good morning!</div>"
+            greeting = `<div class='morning'>Good morning, ${userName}!</div>`
         } else if (browserLanguage.includes('es')) {
-            greeting = "<div class='morning'>¡Buenos días!</div>"
+            greeting = `<div class='morning'>¡Buenos días, ${userName}!</div>`
         };
         break;
 
@@ -44,11 +46,11 @@ switch (hours) {
     case 16:
     case 17:
         if (browserLanguage.includes('de')) {
-            greeting = "<div class='afternoon'>Guten Tag!</div>"
+            greeting = `<div class='afternoon'>Guten Tag, ${userName}!</div>`
         } else if (browserLanguage.includes('en')) {
-            greeting = "<div class='afternoon'>Good afternoon!</div>"
+            greeting = `<div class='afternoon'>Good afternoon, ${userName}!</div>`
         } else if (browserLanguage.includes('es')) {
-            greeting = "<div class='afternoon'>¡Buenas tardes!</div>"
+            greeting = `<div class='afternoon'>¡Buenas tardes, ${userName}!</div>`
         };
         break;
         
@@ -59,11 +61,11 @@ switch (hours) {
     case 22:
     case 23:
         if (browserLanguage.includes('de')) {
-            greeting = "<div class='evening'>Guten Abend!</div>"
+            greeting = `<div class='evening'>Guten Abend, ${userName}!</div>`
         } else if (browserLanguage.includes('en')) {
-            greeting = "<div class='evening'>Good evening!</div>"
+            greeting = `<div class='evening'>Good evening, ${userName}!</div>`
         } else if (browserLanguage.includes('es')) {
-            greeting = "<div class='evening'>¡Buenas noches!</div>"
+            greeting = `<div class='evening'>¡Buenas noches, ${userName}!</div>`
         };
         break;
 }
