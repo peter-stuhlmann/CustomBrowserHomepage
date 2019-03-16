@@ -1,0 +1,31 @@
+body {
+    background-image: url('../img/background-1.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: $primaryFont;
+    margin: 0
+}
+
+#currentTime {
+    color: $primaryColor;
+    font-family: $secondaryFont;
+    font-size: 5.5em;
+    text-shadow: $textShadow;
+    padding: $padding;
+    margin: 20vh auto -30px;
+    border-radius: $borderRadius;
+    text-align: center;
+    box-sizing: border-box
+}
+
+#greeting {
+    color: $primaryColor;
+    font-family: $secondaryFont;
+    font-size: 2.5em;
+    text-shadow: $textShadow;
+    padding: $padding;
+    border-radius: $borderRadius;
+    text-align: center;
+    box-sizing: border-box
+}

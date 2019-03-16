@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/partials/_variables.scss",
+		"../scss/partials/_layout.scss"
+	],
+	"sourcesContent": [
+		"@import url('https://fonts.googleapis.com/css?family=Anton');\n@import url('https://fonts.googleapis.com/css?family=Open+Sans');\n\n@import \"partials/variables\";\n@import \"partials/layout\";",
+		"$primaryColor: #fff;\n$secondaryColor: #000;\n$tertiaryColor: rgba(0, 0, 0, 0.7);\n$quaternyColor: rgba(255, 255, 255, 0.7);\n\n$primaryFont: 'Open Sans', sans-serif;\n$secondaryFont: 'Anton', sans-serif;\n\n$borderRadius: 5px;\n\n$transition: 0.2s;\n\n$textShadow: 5px 3px 6px rgba(0, 0, 0, 0.75);\n    \n$padding: 15px;\n$margin: $padding;\n\n$desktop: 1170px;\n$tablet: 670px;",
+		"body {\n    background-image: url('../img/background-1.jpg');\n    background-size: cover;\n    background-position: top center;\n    background-attachment: fixed;\n    font-family: $primaryFont;\n    margin: 0\n}\n\n#currentTime {\n    color: $primaryColor;\n    font-family: $secondaryFont;\n    font-size: 5.5em;\n    text-shadow: $textShadow;\n    padding: $padding;\n    margin: 20vh auto -30px;\n    border-radius: $borderRadius;\n    text-align: center;\n    box-sizing: border-box\n}\n\n#greeting {\n    color: $primaryColor;\n    font-family: $secondaryFont;\n    font-size: 2.5em;\n    text-shadow: $textShadow;\n    padding: $padding;\n    border-radius: $borderRadius;\n    text-align: center;\n    box-sizing: border-box\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,oDAAI;AACZ,OAAO,CAAC,wDAAI;AEDZ,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,8BAA8B;EAChD,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,UAAU;EAC/B,qBAAqB,EAAE,KAAK;EAC5B,WAAW,EDAD,WAAW,EAAE,UAAU;ECCjC,MAAM,EAAE,CACZ,GAAC;;AAED,AAAA,YAAY,CAAC;EACT,KAAK,EDVM,IAAI;ECWf,WAAW,EDLC,OAAO,EAAE,UAAU;ECM/B,SAAS,EAAE,KAAK;EAChB,WAAW,EDDF,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAmB;ECExC,OAAO,EDAD,IAAI;ECCV,MAAM,EAAE,eAAe;EACvB,aAAa,EDRF,GAAG;ECSd,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,UAChB,GAAC;;AAED,AAAA,SAAS,CAAC;EACN,KAAK,EDtBM,IAAI;ECuBf,WAAW,EDjBC,OAAO,EAAE,UAAU;ECkB/B,SAAS,EAAE,KAAK;EAChB,WAAW,EDbF,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,mBAAmB;ECcxC,OAAO,EDZD,IAAI;ECaV,aAAa,EDnBF,GAAG;ECoBd,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,UAChB,GAAC"
+}

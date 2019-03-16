@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  background-image: url("../img/background-1.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  font-family: "Open Sans", sans-serif;
+  margin: 0; }
+
+#currentTime {
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-size: 5.5em;
+  text-shadow: 5px 3px 6px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+  margin: 20vh auto -30px;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box; }
+
+#greeting {
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-size: 2.5em;
+  text-shadow: 5px 3px 6px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map */
