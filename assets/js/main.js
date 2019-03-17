@@ -80,3 +80,13 @@ setInterval(function () {
     let currentTime = moment().format('HH:mm:ss')
     document.querySelector("#currentTime").innerHTML = currentTime
 }, interval);
+
+
+document.body.style.backgroundImage = localStorage.getItem("background-image");
+
+function backgroundImage() {
+    let backgroundSelection = document.querySelector('input[type=radio]:checked').value
+    localStorage.setItem("background-image", `url('assets/img/background-${backgroundSelection}.jpg')`);
+    document.body.style.backgroundImage = localStorage.getItem("background-image");
+}
+document.querySelectorAll('.wallpapers label').forEach(element => element.addEventListener("change", backgroundImage))
