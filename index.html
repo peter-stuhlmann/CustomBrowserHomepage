@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello!</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
+    <header>
+        <a href="#settings" class="settings-toggle">
+            <span id="settings-button" class="fas fa-cog">&nbsp;</span>
+        </a>
+        <div id="settings" class="settings">
+            <a href="#" class="settings-toggle-out">
+                <span class="fas fa-cog">&nbsp;</span>
+            </a>
+            <h2>Settings</h2>
+            <div class="username-input"><span>Name</span> <input id="username-input" type="text" placeholder="Enter your name"></div>
+            <ul class="wallpapers">
+                <li><label><img src="assets/img/thumbnails/background-1-thumbnail.jpg" alt="BG 1"><br>
+                        <input type="radio" name="background" value="1"></label></li>
+                <li><label><img src="assets/img/thumbnails/background-2-thumbnail.jpg" alt="BG 2"><br>
+                        <input type="radio" name="background" value="2"></label></li>
+                <li><label><img src="assets/img/thumbnails/background-3-thumbnail.jpg" alt="BG 3"><br>
+                        <input type="radio" name="background" value="3"></label></li>
+                <li><label><img src="assets/img/thumbnails/background-4-thumbnail.jpg" alt="BG 4"><br>
+                        <input type="radio" name="background" value="4"></label></li>
+                <li><label><img src="assets/img/thumbnails/background-5-thumbnail.jpg" alt="BG 5"><br>
+                        <input type="radio" name="background" value="5"></label></li>
+                <li><label><img src="assets/img/thumbnails/background-6-thumbnail.jpg" alt="BG 6"><br>
+                        <input type="radio" name="background" value="6"></label></li>
+            </ul>
+        </div>
+        <a href="#" class="backdrop"></a>
+    </header>
+
     <div id="currentTime"></div>
     <div id="greeting"></div>
-    
+
     <script src="assets/js/moment.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
