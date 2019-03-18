@@ -79,6 +79,12 @@
         margin: calc(#{$margin} * 2) 0 $margin 0
     }
 
+    .changeBackgroundHeading {
+        margin-top: 50px;
+        display: block;
+        font-weight: bold
+    }
+
     ul.wallpapers {
         display: flex;
         flex-flow: row wrap;

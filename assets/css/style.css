@@ -97,6 +97,10 @@ body {
       outline: 0; }
   .settings .zip-input {
     margin: calc(15px * 2) 0 15px 0; }
+  .settings .changeBackgroundHeading {
+    margin-top: 50px;
+    display: block;
+    font-weight: bold; }
   .settings ul.wallpapers {
     display: flex;
     flex-flow: row wrap;
