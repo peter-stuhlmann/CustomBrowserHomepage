@@ -107,3 +107,5 @@ function backgroundImage() {
     document.body.style.backgroundImage = localStorage.getItem("background-image");
 }
 document.querySelectorAll('.wallpapers label').forEach(element => element.addEventListener("change", backgroundImage))
+
+document.title = 'Hello, ' + userName + '!' 
