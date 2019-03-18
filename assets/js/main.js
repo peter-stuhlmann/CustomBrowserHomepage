@@ -11,6 +11,7 @@ function getName() {
     localStorage.setItem("name", `${userName}`);
     return userName
 }
+
 document.querySelector('#username-input').addEventListener('keypress', (e) => {
     if (e.keyCode === 13) {
         greetingMessage(userName)
@@ -19,7 +20,7 @@ document.querySelector('#username-input').addEventListener('keypress', (e) => {
 
 let userName = getName()
 
-
+greetingMessage(userName)
 function greetingMessage(user) {
 
     userName = getName()
